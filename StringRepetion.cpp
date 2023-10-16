@@ -1,4 +1,5 @@
 #include<iostream>
+#include<>
 #include<string>
 using namespace std;
 
@@ -11,10 +12,7 @@ void stringRepetion(string name) {
             if(name[j] == name[i]) {
                 count++;
             }
-            if(count > maxCount) {
-                maxCount = count;
-            }
-            
+
         }
         
     }
